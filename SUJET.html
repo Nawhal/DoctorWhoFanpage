@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title> Projets programmation WEB côté serveur - 2015/2016</title>
+	</head>
+	<body>
+		<h1 style="text-align: center; color: blue">Projets programmation WEB côté serveur - 2015/2016</h1>
+		<div>
+<div style="text-align: justify"> 
+			
+<p style="font-weight: bold">Remarques sur les différents projets proposés.</p>		
+<p>Pour les 3 projets proposés, le patron <span style="color:#0000FF"><strong>MVC</strong> </span>doit
+ etre 
+utilisé. La gestion d'erreurs doit être complète. (champs vérifiés, 
+connection à la BD, etc.). Concernant l'interface, toutes les idé es 
+sont les bienvenues, la qualité  de l'ergonomie de l'interface sera 
+prise en compte.<br>
+Les plus téméraires peuvent aller plus loin (utilisation d'un framework simple ? Yii, ORM ?, templating avec Smarty ?)
+</p>
+<p>Le projet est à présenter et à rendre en semaine 7 (TP).</p> 
+ 
+<h4><font color="#990000">Projet C: Site présentant une série télévisée</font></h4>
+
+<p>Le but du projet est de proposer la gestion d'un site présentant une série 
+télévisée, par exemple Game of Thrones,
+			en utilisant le patron <span style="color:#0000FF"><strong>MVC</strong></span>. On doit pouvoir gérer les actualités de la série, 
+			la biographie des personnes.<br>
+
+			Vous devez considérer différentes parties:
+			</p><ul>
+				<li>la partie "accueil du site". 
+				Sur cette page sont mentionnées les actualités. 
+				Chaque actualité se compose d'un titre, d'un corps, d'une date de mise en ligne 
+				et peut comporter une image. Toutes les images sont conservées dans un répertoire. 
+				Une image est repérée par son URL.
+				<br>
+					Le visiteur doit pouvoir:
+					<ul><li style="list-style-type:none">
+						<ul>
+							<li>ajouter un commentaire</li>
+							<li>faire afficher les commentaires déjà enregistrés,  à la demande. Afin de ne pas surcharger la BDD, 
+						seuls les 3 derniers commentaires pour chaque actualité seront conservés.</li>
+						</ul>
+					</li></ul>
+				</li>
+				<li>la partie "Biographie". Elle permet de consulter tout ce qui concerne les personnages de la série.
+				<ul><li style="list-style-type:none">
+								Chaque personne doit apparaitre avec son portrait ainsi que des informations classiques telles 
+								que le nom, le prénom, son âge, ...</li> </ul>
+				</li>
+				<li>la partie "administrateur", elle permet: 
+					<ul>
+						<li> d'ajouter/modifier/supprimer une actualité</li>
+						<li> d'ajouter/supprimer une image reliée à une actualité ou à un personnage</li>
+						<li> d'ajouter/modifier/supprimer un personnage</li>
+						<li> de supprimer un commentaire utilisateur jugé inutile.</li>
+					</ul>
+				</li>
+			</ul>
+		L'ensemble des données sur les actualités, personnages, images (url), 
+commentaires doivent être sauvegardées dans une base de données.<br>
+		
+		<h4>Consignes d'élaboration de votre site</h4>
+		Toutes les pages doivent avoir une structure typique HTML5. 
+		Par l'utilisation de session, vous devez permettre à un administrateur
+ connecté de ne pas perdre ses droits en se déplaçant de page en page.<br>
+		<div>Chaque page de votre site contiendra :
+		<ul>
+			<li>une en-tête avec le nom du site. Prévoir une zone de connexion par mot de passe pour l'administration.</li>
+			<li>un titre spécifique</li>
+			<li>un bloc de contenu</li>
+			<li>un bloc de bas de page où sont mentionnées les informations sur les concepteurs du 
+			site : nom, prénom et groupe.</li>
+			<li>ajouter sur la partie droite de chaque page un bloc contenant  éventuellement une liste de liens externes.. 
+			Gardez un ratio 80% - 20% de largeur pour le contenu et ce bloc.</li>
+			<li>ajouter un menu pour accéder plus rapidement aux pages. Il doit être  présent dans l'en-tête de 
+			chaque page. Le menu est composé de liens mis côte à côte .</li>
+		</ul>
+		</div>
+		<p>La gestion d'erreurs doit être complète. (champs vérifiés, connection à la BD,...) </p>
+
+
+
+
+			</div>
+		<div>
+			<p style="text-align: center">	Département Informatique - Deuxième année</p>
+		</div>
+	
+
+
+		
+		</div></body></html>
