@@ -1,0 +1,184 @@
+body
+{
+    background: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+@font-face
+{
+    font-family: Doctor;
+    src: url(./Doctor.ttf) format(truetype);
+}
+
+@font-face
+{
+    font-family: Dalek;
+    src: url(./Dalek.ttf) format(truetype);
+}
+
+h1, h2
+{
+    font-family: 'Dalek', 'Open Sans', sans-serif;
+}
+
+h1 
+{
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+h2
+{
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+
+p
+{
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.menu
+{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    background: #222;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media (max-width: 991px)
+{
+    .menu
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.menu_logo {
+  display: inline-block;
+  float: left;
+  height: 50px;
+  padding: 1px 7px 7px 7px;
+  /*      up right down left */
+}
+
+.menu > a, .menu_liens > a
+{
+    color: #eee;
+    font-family : 'Doctor', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.menu > a:hover, .menu_liens > a:hover
+{
+    color : #fafafa;
+    text-decoration: none;
+}
+.menu_liens
+{
+    float : right;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    padding-bottom: 0;
+    margin-right: 7px;
+    overflow: visible;
+}
+
+.section
+{
+    border-top: 10px solid rgba(0,0,0,0.1);
+}
+
+.presentation
+{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    color: #fff;
+    background-color: #00a2ea;
+    width: 100%;
+}
+
+.presentation_sous-titre
+{
+    font-family: 'Dalek', 'Open Sans', sans-serif;;
+    font-weight: 700;
+}
+
+.presentation_sous-sous-titre
+{
+    font-family: 'Dalek', 'Open Sans', sans-serif;;
+    font-weight: 700;
+}
+
+.articles
+{
+    background: #12285f;
+    display: table;
+    padding: 40px 80px;
+}
+
+.articles_element
+{
+    display: table-cell;
+    width: 33.333333%;
+    position: relative;
+    color: #333;
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    
+}
+@media(max-width: 991px)
+{
+  .infos__item
+  {
+    width: 100%;
+  }
+}
+
+.articles_bouton
+{
+    
+}
+
+footer
+{
+    background: #222;
+    color : #eee;
+    padding: 20px;
+}
+
+.centrer
+{
+    text-align : center;
+}
+
+.gauche
+{
+    text-align : left;
+}
+
+.droite
+{
+    text-align : right;
+}
+
+.container
+{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

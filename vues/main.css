@@ -1072,13 +1072,6 @@ th {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
- body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333333;
-  background-color: #ffffff;
-}
  input,
 button,
 select,
@@ -1578,27 +1571,6 @@ samp {
  .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
-}
- .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-   .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-   .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-   .container {
-    width: 1170px;
-  }
 }
  .container-fluid {
   margin-right: auto;
@@ -4585,7 +4557,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left !important;
   }
    .navbar-right {
-    float: right !important;
+    float: right;
     margin-right: -15px;
   }
    .navbar-right ~ .navbar-right {
@@ -6884,37 +6856,6 @@ button.list-group-item-danger.active:focus {
     font-size: 16px;
 }
 
- body {
-    background: #111;
-  }
-
- h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Dosis', 'Open Sans', sans-serif;
-}
-
- h1 {
-    font-size: 60px;
-    margin-top: 60px;
-}
-
- h2 {
-    font-size: 42px;
-    margin-bottom: 32px
-}
-
- p {
-    line-height: 24px;
-    margin-bottom: 24px;
-}
-.section {
-    padding: 60px 0;
-    border-top: 10px solid rgba(0,0,0,0.1);
-}
 .section.\--first {
   border-top: none;
   padding-top: 90px !important;
@@ -7203,8 +7144,15 @@ h6 {
     padding-bottom: 20px;
   }
 }
+
+@font-face {
+  font-family: Doctor;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Doctor.ttf) format(truetype);
+
 #csstyle .\+handwritten {
-    font-family: 'Pacifico', cursive;
+    font-family: Doctor, Consolas;
     text-shadow: 0 5px rgba(0,0,0,0.1);
 }
 #csstyle .\+monospaced {
