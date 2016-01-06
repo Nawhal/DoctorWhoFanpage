@@ -7,16 +7,28 @@ body
     color: #333333;
 }
 
+aside
+{
+    float: right; /* Comment faire pour qu'il prenne toute la place? */
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    z-index: 42;
+}
+
 @font-face
 {
     font-family: Doctor;
-    src: url(./Doctor.ttf) format(truetype);
+    src: url('./Doctor.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: Dalek;
-    src: url(./Dalek.ttf) format(truetype);
+    src: url('./Dalek.ttf') format('truetype');
 }
 
 h1, h2
@@ -103,10 +115,11 @@ p
 
 .presentation
 {
-    padding-top: 90px;
-    padding-bottom: 80px;
+    padding-top: 140px;
+    padding-bottom: 120px;
     color: #fff;
-    background-color: #00a2ea;
+    background-image: url('./Images/tardis.jpg');
+    background-color: #ddd;
     width: 100%;
 }
 
@@ -124,7 +137,8 @@ p
 
 .articles
 {
-    background: #12285f;
+    background-image: url('./Images/tardis_blue.jpg');
+    background-color: #12285f;
     display: table;
     padding: 40px 80px;
 }
@@ -133,24 +147,56 @@ p
 {
     display: table-cell;
     width: 33.333333%;
+}
+
+.articles_article
+{
     position: relative;
     color: #333;
     padding: 15px;
     background: #eee;
     border-radius: 5px;
-    
-}
-@media(max-width: 991px)
-{
-  .infos__item
-  {
-    width: 100%;
-  }
+    margin: 15px;
 }
 
 .articles_bouton
 {
-    
+    cursor : pointer;
+    background: #00a2ea;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    padding: 8px 24px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0 6px rgb(1, 133, 184);
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.articles_bouton:hover
+{
+    background: rgb(31, 163, 214);
+    text-decoration: none;
+    color: #fff;
+}
+
+.articles_bouton:active
+{
+    box-shadow: 0 2px rgb(1, 133, 184);
+    top: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bouton-centre
+{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer
