@@ -1,51 +1,170 @@
 body
 {
     background: #111;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Style, Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.5;
     color: #333333;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 aside
 {
-    float: right; /* Comment faire pour qu'il prenne toute la place? */
+    margin-top: 57px;
     position: fixed;
     width: 20%;
     height: 100%;
-    margin-left: 10px;
-    background-color: rgba(0, 0, 0, 0.9);
+    margin-right: 0px;
+    margin-left: 80%;
+    background-color: #131d2f;
     color: #fff;
     z-index: 42;
+    padding: 10px;
+    font-family: Style;
+    font-size: 18px;
+    box-shadow: -8px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+aside > input[type="text"]
+{
+    width: 85%;
+    height: 34px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+aside > .bouton
+{
+    font-size: 16px;
+    font-weight: 700;
+    width: 30%;
+}
+
+aside > a
+{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 14px;
+}
+
+aside > a:hover
+{
+    color: #fff;
 }
 
 @font-face
 {
-    font-family: Doctor;
-    src: url('./Doctor.ttf') format('truetype');
+    font-family: Futur1;
+    src: url('./Fonts/Aspace.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: Joli1;
+    src: url('./Fonts/Chardons.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: Dalek;
-    src: url('./Dalek.ttf') format('truetype');
+    src: url('./Fonts/Dalek.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: Doctor;
+    src: url('./Fonts/Doctor.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Style;
+    src: url('./Fonts/Dreams.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Bande;
+    src: url('./Fonts/Letter.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Futur2;
+    src: url('./Fonts/Neuropol.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Soft1;
+    src: url('./Fonts/Roboto.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Soft2;
+    src: url('./Fonts/Roboto2.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Soft3;
+    src: url('./Fonts/Roboto3.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Soft4;
+    src: url('./Fonts/Roboto4.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Maj;
+    src: url('./Fonts/Sorry.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Joli2;
+    src: url('./Fonts/Sunshine.ttf') format('truetype');
 }
 
 h1, h2
 {
-    font-family: 'Dalek', 'Open Sans', sans-serif;
+    font-family: 'Joli1', 'Open Sans', sans-serif;
 }
 
 h1 
 {
-    font-size: 60px;
+    font-size: 80px;
     margin-top: 60px;
+    margin-bottom: -30px;
 }
 
 h2
 {
     font-size: 42px;
     margin-bottom: 32px;
+}
+
+h3
+{
+    font-size: 24px;
 }
 
 p
@@ -62,15 +181,16 @@ p
     top: 0;
     z-index: 1030;
     background: #222;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-right: 0px;
 }
 @media (max-width: 991px)
 {
     .menu
     {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 
@@ -86,8 +206,9 @@ p
 {
     color: #eee;
     font-family : 'Doctor', sans-serif;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .menu > a:hover, .menu_liens > a:hover
@@ -115,32 +236,27 @@ p
 
 .presentation
 {
-    padding-top: 140px;
+    padding-top: 130px;
     padding-bottom: 120px;
     color: #fff;
     background-image: url('./Images/tardis.jpg');
-    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
     width: 100%;
 }
 
 .presentation_sous-titre
 {
-    font-family: 'Dalek', 'Open Sans', sans-serif;;
-    font-weight: 700;
-}
-
-.presentation_sous-sous-titre
-{
-    font-family: 'Dalek', 'Open Sans', sans-serif;;
+    font-family: 'Style', 'Open Sans', sans-serif;;
     font-weight: 700;
 }
 
 .articles
 {
-    background-image: url('./Images/tardis_blue.jpg');
-    background-color: #12285f;
+    background-color: #2b416a;
     display: table;
-    padding: 40px 80px;
+    padding: 40px 60px;
 }
 
 .articles_element
@@ -159,7 +275,7 @@ p
     margin: 15px;
 }
 
-.articles_bouton
+.bouton
 {
     cursor : pointer;
     background: #00a2ea;
@@ -178,14 +294,14 @@ p
     text-decoration: none;
 }
 
-.articles_bouton:hover
+.bouton:hover
 {
     background: rgb(31, 163, 214);
     text-decoration: none;
     color: #fff;
 }
 
-.articles_bouton:active
+.bouton:active
 {
     box-shadow: 0 2px rgb(1, 133, 184);
     top: 4px;
@@ -204,8 +320,15 @@ footer
     background: #222;
     color : #eee;
     padding: 20px;
+    z-index: 1030;
 }
 
+footer > p
+{
+    padding-left: 20px;
+    font-family: Joli2;
+    font-size: 20px;
+}
 .centrer
 {
     text-align : center;
@@ -227,4 +350,13 @@ footer
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.erreur
+{
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 15px;
+    color : #a9302a;
 }

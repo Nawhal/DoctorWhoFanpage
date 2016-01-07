@@ -6988,7 +6988,7 @@ button.list-group-item-danger.active:focus {
 }
 .errors li {
   margin: 0;
-  list-style-type: none
+  list-style-type: none;
 }
 .footer-imprint {
     font-weight: bold;
