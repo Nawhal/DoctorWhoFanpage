@@ -1,6 +1,8 @@
 /*
-Bleu clair: #7290C6;
-Bleu moyen: #4C72B6;
+Bleu très très clair : #eef2f8;
+Bleu très clair : #dde5f1;
+Bleu clair: #7290c6;
+Bleu moyen: #4C72b6;
 Bleu foncé: #2b416a;
 Bleu très foncé: #131d2f;
 */
@@ -16,6 +18,43 @@ body
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
+}
+
+input[type=text]
+{
+    height: 34px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
+
+textarea
+{
+    height: 100px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
+
+.bonjour
+{
+    font-size: 20px;
 }
 
 aside
@@ -39,16 +78,6 @@ aside > input[type="text"]
 {
     width: 85%;
     height: 34px;
-    padding: 5px 10px;
-    font-size: 14px;
-    color: #555555;
-    background-color: #ffffff;
-    background-image: none;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #ccc;
-    border-radius: 10px;
-    margin-bottom: 10px;
 }
 
 aside > .bouton
@@ -142,6 +171,43 @@ aside > a:hover
 
 @font-face
 {
+    font-family: Round1;
+    src: url('./Fonts/Round1.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: Round2;
+    src: url('./Fonts/Round2.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Round3;
+    src: url('./Fonts/Round3.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Round4;
+    src: url('./Fonts/Round4.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: Round4B;
+    src: url('./Fonts/Round4B.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: Round5;
+    src: url('./Fonts/Round5.ttf') format('truetype');
+}
+
+
+@font-face
+{
     font-family: Maj;
     src: url('./Fonts/Sorry.ttf') format('truetype');
 }
@@ -174,6 +240,12 @@ h2
 h3
 {
     font-size: 24px;
+}
+
+h4
+{
+    font-size: 15px;
+    margin-top: 0px;
 }
 
 p
@@ -222,6 +294,7 @@ p
     color : #fafafa;
     text-decoration: none;
 }
+
 .menu_liens
 {
     float : right;
@@ -250,7 +323,7 @@ p
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 24px;
-    padding: 8px 24px;
+    padding: 8px 0px;
     position: relative;
     text-align: center;
     width: 180px;
@@ -324,4 +397,15 @@ footer > p
     border-radius: 5px;
     padding: 15px;
     color : #a9302a;
+}
+
+.element
+{
+    margin: 0% 6% 0% 6%;
+    background-color: #dde5f1;;
+    color: #333;
+    margin-bottom: 32px;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: 600;
 }

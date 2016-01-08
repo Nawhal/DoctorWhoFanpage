@@ -15,10 +15,17 @@
             Actualit&eacute;s
         </h2>
         
+        <?php
+        for ($j = 1; $j <=3; $j++) {
+        ?>
+        
         <article>
             <h3>
                 Fin de la saison
             </h3>
+            <p class="date">
+                08/01/2016
+            </p>
             <img src="./Images/hydroflax.jpg">
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet blandit tortor ac molestie. Aenean ultrices urna id nunc ornare varius. Mauris vel lectus ut dui consequat finibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum faucibus lacus a augue molestie, in ultrices nibh elementum. Nam varius purus a ligula congue, at varius urna accumsan. In sed aliquam odio, sed vulputate diam. Ut ut odio porta, ornare lectus a, maximus dui. Integer at augue gravida, convallis orci nec, commodo lacus. Vivamus consectetur erat in tristique aliquet. Morbi accumsan interdum diam, eget tristique elit. Aenean nec ante arcu.
@@ -34,10 +41,31 @@
         </article>
         <a class="article_affich">
             Afficher les commentaires
-            <div class="commentaires">
-                CACA !!!!
-            </div>
         </a>
+        <div class="commentaires">
+            <?php
+            for ($i = 1; $i <= 3; $i++) {
+            ?>
+            <div class="element">
+                <h4>Nom utilisateur</h4>
+                Sed accumsan ante quis nisl ornare porttitor. Vestibulum viverra, sem eu volutpat molestie, massa justo cursus justo, vitae vehicula metus sapien at tellus. Nunc at tincidunt nibh. Vivamus sodales accumsan nisi, a vulputate sapien cursus a. Nam a tellus elementum sem congue porta sed ut diam. Aenean nisi elit, fermentum at aliquam vitae, pulvinar sit amet velit. Vestibulum et aliquam tellus. Nunc vel vehicula turpis, nec congue odio. Duis pulvinar posuere gravida. Vestibulum sodales tellus lacus, vitae dictum ligula auctor vitae. Ut eu massa malesuada nunc mattis tristique eu et lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit ultrices est vitae sodales. Aliquam vel dolor quis orci finibus dapibus.
+            </div>
+            <?php
+            }
+            ?>
+        </div>
+        <div class="element">
+            <h4>
+                Ajouter un commentaire
+            </h4>
+            <input placeholder="Pseudo" name="pseudo" type="text">
+            <br/>
+            <textarea placeholder="Commentaire" name="commentaire" type="text"></textarea>
+            <input class="bouton" type="submit" value="Valider">
+        </div>
+        <?php
+        }
+        ?>
         <?php
         require_once 'footer.php';
         ?>

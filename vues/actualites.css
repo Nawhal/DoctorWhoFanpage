@@ -20,6 +20,13 @@ article > h3
     font-size: 35px;
 }
 
+.date
+{
+    text-indent: 13px;
+    margin-top: -12px;
+    font-style: italic;
+}
+
 article > img
 {
     margin : 0% 5% 3% 5%;
@@ -34,15 +41,38 @@ article > p
 
 .commentaires
 {
-    display: none;
+    font-family: Round4;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /*display: none;*/
 }
-
+/*
 .article_affich:active > .commentaires
 {
     display: block;
 }
+*/
 
 .article_affich
 {
+    font-size: 18px;
+    font-weight: bold;
     padding-left: 5%;
+}
+
+.element > input
+{
+    width: 200px;
+}
+
+.element > textarea
+{
+    width: 98%;
+    height: 100px;
+}
+
+.commentaire_element > h4
+{
+    font-family: Round4B;
 }

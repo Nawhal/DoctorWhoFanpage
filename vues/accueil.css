@@ -33,8 +33,9 @@
 {
     position: relative;
     color: #333;
-    padding: 15px;
+    padding: 15px 20px;
     background: #eee;
     border-radius: 5px;
     margin: 15px;
+    text-align: justify;
 }
