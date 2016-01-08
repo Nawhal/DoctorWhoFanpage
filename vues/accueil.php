@@ -4,12 +4,11 @@
         <?php
         require_once 'header.php';
         ?>
+        <link rel="stylesheet" href="./accueil.css">
     </head>
     <body>
         <?php
         require_once 'menu.php';
-        ?>
-        <?php
         require_once 'aside.php';
         ?>
         <div class="presentation">

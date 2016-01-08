@@ -4,7 +4,7 @@
         Doctor Who Fanpage
     </a>
     <div class="menu_liens">
-        <a href="./accueil.php" >
+        <a href="./actualites.php" >
             Actualit&eacute;
         </a>
         <a href="./accueil.php">
