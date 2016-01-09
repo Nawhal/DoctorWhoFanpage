@@ -2,14 +2,14 @@
 <html lang="fr">
     <head>
         <?php
-            require_once 'header.php';
+        require_once 'header.php';
         ?>
         <link rel="stylesheet" href="./accueil.css">
     </head>
     <body>
         <?php
         require_once 'menu.php';
-        require_once 'aside.php';
+        require_once 'asideAdmin.php';
         ?>
         <div class="presentation">
             <div class="centrer">

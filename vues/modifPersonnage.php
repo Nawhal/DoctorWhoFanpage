@@ -1,14 +1,14 @@
 <html>
     <head>
         <?php
-        require_once 'header.php';
+            require_once 'header.php';
         ?>
         <link rel="stylesheet" href="./actualites.css">
     </head>
     <body>
         <?php
-        require_once 'menu.php';
-        require_once 'asideAdmin.php';
+            require_once 'menu.php';
+            require_once 'asideAdmin.php';
         ?>
         
         <h2 class="centrer">
@@ -17,8 +17,8 @@
         
         <div class="element">
             <?php
-            if (isset($erreurs))
-                require_once 'erreurSaisie.php';
+                if (isset($erreurs))
+                    require_once 'erreurSaisie.php';
             ?>
            <form method="post" action="" enctype="multipart/form-data">
                <input placeholder="Nom" name="nom" type="text">
@@ -39,7 +39,7 @@
            </form>  
         </div>
         <?php
-        require_once 'footer.php';
+            require_once 'footer.php';
         ?>
     </body>
 </html>

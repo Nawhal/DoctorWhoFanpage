@@ -20,6 +20,11 @@ body
     margin-left: 0px;
 }
 
+input
+{
+    display: box;
+}
+
 input[type=text]
 {
     height: 34px;

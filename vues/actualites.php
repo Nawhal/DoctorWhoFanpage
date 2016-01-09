@@ -16,7 +16,7 @@
         </h2>
         
         <?php
-        for ($j = 1; $j <=3; $j++) {
+            for ($j = 1; $j <=3; $j++) {
         ?>
         
         <article>
@@ -59,7 +59,6 @@
                 Ajouter un commentaire
             </h4>
             <input placeholder="Pseudo" name="pseudo" type="text">
-            <br/>
             <textarea placeholder="Commentaire" name="commentaire" type="text"></textarea>
             <button type="submit" value="Valider">Valider</button>
         </div>

@@ -27,11 +27,11 @@
         ?>
         
         <article>
-            <button type="button" value="modifNews" class="bouton_Admin">
-                <img src="./Images/Edit.png">
-            </button>
             <button type="button" value="suppNews" class="bouton_Admin">
                 <img src="./Images/Delete.png">
+            </button>
+            <button type="button" value="modifNews" class="bouton_Admin">
+                <img src="./Images/Edit.png">
             </button>
             <h3>
                 Fin de la saison
@@ -63,7 +63,7 @@
         </a>
         <div class="commentaires">
             <?php
-            for ($i = 1; $i <= 3; $i++) {
+                for ($i = 1; $i <= 3; $i++) {
             ?>
             <div class="element">
                 <button type="button" value="suppCommentaire" class="bouton_Admin">
@@ -80,10 +80,11 @@
             <h4>
                 Ajouter un commentaire
             </h4>
-            <input placeholder="Pseudo" name="pseudo" type="text">
-            <br/>
-            <textarea placeholder="Commentaire" name="commentaire" type="text"></textarea>
-            <button type="submit" value="Valider">Valider</button>
+            <form method="POST" action=''>
+                <input placeholder="Pseudo" name="pseudo" type="text">
+                <textarea placeholder="Commentaire" name="commentaire" type="text"></textarea>
+                <button type="submit" value="Valider">Valider</button>
+            </form>
         </div>
         <?php
         }

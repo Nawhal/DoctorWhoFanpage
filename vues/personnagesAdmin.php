@@ -1,14 +1,14 @@
 <html>
     <head>
         <?php
-        require_once 'header.php';
+            require_once 'header.php';
         ?>
         <link rel="stylesheet" href="./personnages.css">
     </head>
     <body>
         <?php
-        require_once 'menu.php';
-        require_once 'aside.php';
+            require_once 'menu.php';
+            require_once 'aside.php';
         ?>
         
         <h2 class="centrer">
@@ -257,7 +257,7 @@
             </table>
         </div>
         <?php
-        require_once 'footer.php';
+            require_once 'footer.php';
         ?>
     </body>
 </html>
