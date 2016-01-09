@@ -8,18 +8,31 @@
     <body>
         <?php
         require_once 'menu.php';
-        require_once 'aside.php';
+        require_once 'asideAdmin.php';
         ?>
         
         <h2 class="centrer">
             Actualit&eacute;s
         </h2>
         
+        <div class="element_Admin">
+            <button type="button" value="addNews" class="bouton_Admin">
+                <img src="./Images/Add.png">
+                Ajouter une actualité
+            </button>
+        </div>
+        
         <?php
         for ($j = 1; $j <=3; $j++) {
         ?>
         
         <article>
+            <button type="button" value="modifNews" class="bouton_Admin">
+                <img src="./Images/Edit.png">
+            </button>
+            <button type="button" value="suppNews" class="bouton_Admin">
+                <img src="./Images/Delete.png">
+            </button>
             <h3>
                 Fin de la saison
             </h3>
@@ -27,6 +40,12 @@
                 08/01/2016
             </p>
             <img src="./Images/hydroflax.jpg">
+            <button type="button" value="addImage" class="bouton_Admin">
+                <img src="./Images/Ad.png">
+            </button>
+            <button type="button" value="suppImage" class="bouton_Admin">
+                <img src="./Images/Delete.png">
+            </button>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet blandit tortor ac molestie. Aenean ultrices urna id nunc ornare varius. Mauris vel lectus ut dui consequat finibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum faucibus lacus a augue molestie, in ultrices nibh elementum. Nam varius purus a ligula congue, at varius urna accumsan. In sed aliquam odio, sed vulputate diam. Ut ut odio porta, ornare lectus a, maximus dui. Integer at augue gravida, convallis orci nec, commodo lacus. Vivamus consectetur erat in tristique aliquet. Morbi accumsan interdum diam, eget tristique elit. Aenean nec ante arcu.
             </p><p>
@@ -47,6 +66,9 @@
             for ($i = 1; $i <= 3; $i++) {
             ?>
             <div class="element">
+                <button type="button" value="suppCommentaire" class="bouton_Admin">
+                    <img src="./Images/Delete.png">
+                </button>
                 <h4>Nom utilisateur</h4>
                 Sed accumsan ante quis nisl ornare porttitor. Vestibulum viverra, sem eu volutpat molestie, massa justo cursus justo, vitae vehicula metus sapien at tellus. Nunc at tincidunt nibh. Vivamus sodales accumsan nisi, a vulputate sapien cursus a. Nam a tellus elementum sem congue porta sed ut diam. Aenean nisi elit, fermentum at aliquam vitae, pulvinar sit amet velit. Vestibulum et aliquam tellus. Nunc vel vehicula turpis, nec congue odio. Duis pulvinar posuere gravida. Vestibulum sodales tellus lacus, vitae dictum ligula auctor vitae. Ut eu massa malesuada nunc mattis tristique eu et lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit ultrices est vitae sodales. Aliquam vel dolor quis orci finibus dapibus.
             </div>

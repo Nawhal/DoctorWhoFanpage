@@ -1,12 +1,9 @@
 <aside class="section">
-    <?php
-    if (isset($erreurs))
-        require_once 'erreurSaisie.php';
-    ?>
-    <h4>Connexion</h4>
-    <input placeholder="Identifiant" name="id" type="text">
-    <input placeholder="Mot de passe" name="mdp" type="text">
-    <button type="submit" value="Valider">Valider</button>
+    <br/><br/>
+    <h4 class="bonjour">
+        Bonjour Admin !
+    </h4>
+    <br/><br/><br/><br/>
     <br/><br/><br/><br/><br/>
     <h4>Liens externes</h4>
     <a href="http://www.bbc.co.uk/programmes/b006q2x0">

@@ -39,9 +39,9 @@
                             L'&eacute;pisode de No&emacr;l a marqu&eacute; la fin de la saison 9. Qui sera 
                             la/le prochain compagnon? Reverra-t-on River Song? Beaucoup de questions se posent sur la saison 10 !
                         </p>
-                            <a href="./accueil.php" class="bouton-centre bouton">
-                                En savoir plus
-                            </a>
+                        <a href="./accueil.php" class="bouton-centre bouton">
+                            En savoir plus
+                        </a>
                     </div>
                 </div>
             <?php
