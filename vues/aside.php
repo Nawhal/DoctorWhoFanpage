@@ -23,4 +23,7 @@
     <a href="http://fr.doctorwho.wikia.com/wiki/Wiki_Doctor_Who">
         Le Wikia français de Doctor Who
     </a>
+    <a href="./accueilAdmin.php">
+        La partie admin du site
+    </a>
 </aside>

@@ -50,7 +50,7 @@
                     <td>
                         <b> Nom :</b> Clara Oswin Oswald
                         <br/>
-                        <b> Age : </b> 25 ans</td>
+                        <b> Age : </b> 25 ans
                         <br/>
                         <b> Plan&egrave;te d'origine : </b>Terre
                         <br/>

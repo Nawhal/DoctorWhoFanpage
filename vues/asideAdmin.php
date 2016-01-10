@@ -18,4 +18,7 @@
     <a href="http://fr.doctorwho.wikia.com/wiki/Wiki_Doctor_Who">
         Le Wikia français de Doctor Who
     </a>
+    <a href="./accueil.php">
+        La partie utilisateur du site
+    </a>
 </aside>

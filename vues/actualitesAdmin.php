@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-        require_once 'menu.php';
+        require_once 'menuAdmin.php';
         require_once 'asideAdmin.php';
         ?>
         
@@ -16,10 +16,10 @@
         </h2>
         
         <div class="element_Admin">
-            <button type="button" value="addNews" class="bouton_Admin">
+            <a href="./modifActualite.php" class="bouton bouton_Admin">
                 <img src="./Images/Add.png">
                 Ajouter une actualité
-            </button>
+            </a>
         </div>
         
         <?php
